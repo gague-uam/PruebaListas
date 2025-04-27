@@ -6,5 +6,5 @@ class Paciente:
         self.prioridad = prioridad
 
     def __str__(self):
-        return f"Nombre: {self.nombre.ljust(20)} | Edad: {str(self.edad).ljust(3)} | Síntoma: {self.sintoma.ljust(15)} | Prioridad: {self.prioridad}"
+        return f"Nombre: {self.nombre.ljust(20)} | Edad: {str(self.edad).ljust(3)} | Sintoma: {self.sintoma.ljust(15)} | Prioridad: {self.prioridad}"
         
